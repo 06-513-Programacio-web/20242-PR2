@@ -1,0 +1,1 @@
+/*Este script carga la información de la película seleccionada y la muestra en la página de detalles.*/

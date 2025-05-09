@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Registro de Usuario</title>
+</head>
+<body>
+    <div id="register">
+        <form id="registerForm">
+            <div>
+                <h3>Registro de usuario</h3>
+            </div>
+            <div class="form-group">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name">
+            </div>
+            <div class="form-group">
+                <label for="surname">Apellidos:</label>
+                <input type="text" id="surname" name="surname">
+            </div>
+            <div class="form-group">
+                <label for="address">Dirección:</label>
+                <input type="text" id="address" name="address">
+            </div>
+            <div class="form-group">
+                <label for="city">Población:</label>
+                <select id="city" name="city">
+                    <option value="">Seleccione una población</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="postalCode">Código Postal:</label>
+                <input type="text" id="postalCode" name="postalCode">
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div class="form-group">
+                <label for="username">Usuario:</label>
+                <input type="text" id="username" name="username">
+            </div>
+            <div class="form-group">
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password" name="password">
+            </div>
+    
+            <button type="button" id="save">Guardar</button>
+            <button type="button" id="loginButton">Volver a Login</button>
+
+        </form>
+    </div>  
+</body>
+<script src="../js/config.js"></script>
+<script src="../js/clases.js"></script>
+<script src="../js/registro.js"></script>
+</html>

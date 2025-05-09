@@ -1,0 +1,95 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    /*background-color: #e7e7e7; /* Fondo gris claro */
+    background-color: #dee2e6;
+    text-align: center;
+}
+
+/* Estilos del menú superior */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(3, 37, 65); /* Color rojo de Marvel */
+    color: white;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Sombra para darle profundidad */
+}
+
+.navbar h1{
+    color: #e9e4e4 ; /* Rojo de Marvel */
+}
+
+.navbar-left h1 {
+    margin: 0;
+    font-size: 26px; /* Tamaño de fuente mayor */
+}
+
+.navbar-left h2 {
+    margin: 0;
+    font-size: 14px;
+    font-weight: normal;
+    color: #e9e4e4; /* Color dorado */
+}
+
+.navbar-right {
+    list-style: none;
+    margin: 0;
+    padding: 0 20px 0 0;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-right li {
+    margin: 0 15px;
+}
+
+.navbar-right li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar-right li a:hover {
+    color: #ffd700; /* Color dorado al pasar el mouse */
+}
+
+/* Dropdown menu (submenú) */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #838181;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #333;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+}
+
+.dropdown-content a:hover {
+    background-color: #f2f2f2; /* Color de fondo al pasar el mouse */
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    color: #ffd700; /* Color dorado al pasar el mouse */
+}
+
+/* Añadir los estilos que consideréis necesarios */
